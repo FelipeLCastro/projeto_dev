@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*Main tag*/
+
+body{
+    background-color: rgb(32, 32, 32);   
+    height: 800px;
+    cursor: url('img/cur1.png'), pointer;	
+}
+
+h1{
+    color: rgb(255, 255, 255);    
+    font-family: 'PT Sans';
+}
+
+h5{
+    font-size: 15px;
+}
+
+a{
+    color: crimson;
+    padding: 5px;
+    cursor: url('img/cur2.png'), auto;	
+}
+
+a:hover{
+    color: plum;
+}
+
+header{
+    text-align: center;
+}
+
+/*Classes*/
+
+.border-black{
+    border: 5px solid black;
+}
+
+.info{
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans';
+}
+
+.card {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card .info{
+    margin-top: 50px;
+    float: right;
+
+}
+
+.card:hover{
+    box-shadow: 10px 5px 5px white;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.instrução{
+    border: 3px dashed white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#game{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+canvas{
+    background-image: url("img/background_jogo.png");
+
+}
+button{
+    display: block;
+    margin: auto;
+}
